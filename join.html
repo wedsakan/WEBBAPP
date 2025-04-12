@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project</title>
+
+    <!-- To link external styling file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>
+            Welcome to In-Sync Recorder
+        </h1>
+    </header>
+    <main>
+        <h2>Join a Room</h2>
+        <p>Enter a room code to start a new recording session:</p>
+
+        <form id="join-room-form" action="camera.html" method="GET" target="_blank">
+            <fieldset>
+                <label for="room-id">Room Code</label>
+                <input id="room-id" name="room-id" type="text" required placeholder="e.g., room123">
+            </fieldset>
+            <input type="submit" value="Join Room">
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Project</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project</title>
+
+    <!-- To link external styling file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>
+           Camera Layout
+        </h1>
+    </header>
+    <main>
+       <p>jhjhjhkjhjhjk</p>
+       <section class="video-grid">
+        <div class="video-container">
+            <video muted autoplay playsinline></video>
+            <canvas class="overlay"></canvas>
+        </div>
+        <div class="video-container">
+            <video muted autoplay playsinline></video>
+            <canvas class="overlay"></canvas>
+        </div>
+      </section>
+      <section class="controls">
+        <button>Start Calibration</button>
+        <button>Start Recording</button>
+        <button>Stop Recording</button>
+        <button>Save Recording</button>
+      </section>
+      <label for="enivroment">Capture enivroment:</label>
+      <br>
+      <input type="file" id="enivroment" capture="enivroment" accept="video/*">
+    </main>
+    <footer>
+        <p>&copy; 2024 My Project</p>
+    </footer>
+</body>
+
+</html>
